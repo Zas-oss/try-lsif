@@ -1,6 +1,6 @@
-{"id":1,"label":"metaData","positionEncoding":"utf-16","projectRoot":"file:///Users/alinili/ts2/try-lsif","toolInfo":{"args":[],"name":"lsif-ts","version":"0.1.0"},"type":"vertex","version":"0.1.0"}
+{"id":1,"label":"metaData","positionEncoding":"utf-16","projectRoot":"file:///root/try-lsif","toolInfo":{"args":[],"name":"lsif-ts","version":"0.1.0"},"type":"vertex","version":"0.1.0"}
 {"id":2,"kind":"typescript","label":"project","type":"vertex"}
-{"id":3,"label":"document","languageId":"typescript","type":"vertex","uri":"file:///Users/alinili/ts2/try-lsif/index.ts"}
+{"id":3,"label":"document","languageId":"typescript","type":"vertex","uri":"file:///root/try-lsif/index.ts"}
 {"end":{"character":5,"line":0},"id":4,"label":"range","start":{"character":4,"line":0},"type":"vertex"}
 {"id":5,"label":"resultSet","type":"vertex"}
 {"id":6,"label":"definitionResult","type":"vertex"}
