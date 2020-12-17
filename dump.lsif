@@ -1,6 +1,6 @@
 {"id":1,"label":"metaData","positionEncoding":"utf-16","projectRoot":"file:///Users/alinili/ts2/try-lsif","toolInfo":{"args":[],"name":"lsif-ts","version":"0.1.0"},"type":"vertex","version":"0.1.0"}
 {"id":2,"kind":"typescript","label":"project","type":"vertex"}
-{"id":3,"label":"document","languageId":"typescript","type":"vertex","uri":"/Users/alinili/ts2/try-lsif/index.ts"}
+{"id":3,"label":"document","languageId":"typescript","type":"vertex","uri":"file:///Users/alinili/ts2/try-lsif/index.ts"}
 {"end":{"character":5,"line":0},"id":4,"label":"range","start":{"character":4,"line":0},"type":"vertex"}
 {"id":5,"label":"resultSet","type":"vertex"}
 {"id":6,"label":"definitionResult","type":"vertex"}
@@ -20,12 +20,12 @@
 {"end":{"character":5,"line":0},"id":20,"label":"range","start":{"character":4,"line":0},"type":"vertex"}
 {"id":21,"inV":5,"label":"next","outV":20,"type":"edge"}
 {"id":22,"label":"referenceResult","type":"vertex"}
-{"id":23,"inV":5,"label":"textDocument/references","outV":22,"type":"edge"}
+{"id":23,"inV":22,"label":"textDocument/references","outV":5,"type":"edge"}
 {"document":3,"id":24,"inVs":[4],"label":"item","outV":22,"property":"definitions","type":"edge"}
-{"document":20,"id":25,"inVs":[20],"label":"item","outV":22,"property":"references","type":"edge"}
-{"document":16,"id":26,"inVs":[16],"label":"item","outV":22,"property":"references","type":"edge"}
+{"document":16,"id":25,"inVs":[16],"label":"item","outV":22,"property":"references","type":"edge"}
+{"document":20,"id":26,"inVs":[20],"label":"item","outV":22,"property":"references","type":"edge"}
 {"id":27,"label":"referenceResult","type":"vertex"}
-{"id":28,"inV":11,"label":"textDocument/references","outV":27,"type":"edge"}
+{"id":28,"inV":27,"label":"textDocument/references","outV":11,"type":"edge"}
 {"document":3,"id":29,"inVs":[10],"label":"item","outV":27,"property":"definitions","type":"edge"}
 {"document":18,"id":30,"inVs":[18],"label":"item","outV":27,"property":"references","type":"edge"}
 {"id":31,"inVs":[16,18,20,4,10],"label":"contains","outV":3,"type":"edge"}
