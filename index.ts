@@ -1,13 +1,13 @@
-let a = 3;
+let f = 3;
 
-let b = a * 2;
+let b = f * 2;
 
 function another() {
-  return a * 2;
+  return f * 2;
 }
 
-a = b * 4;
+f = b * 4;
 
 let c = 4;
 
-a = c * 4;
+f = c * 4;
