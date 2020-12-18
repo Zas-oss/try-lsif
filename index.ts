@@ -7,3 +7,7 @@ function another() {
 }
 
 a = b * 4;
+
+let c = 4;
+
+a = c * 4;
