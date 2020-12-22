@@ -1,5 +1,10 @@
 function hello() {}
 hello();
 
-function another() {}
+function another() {
+  hello();
+}
 another();
+
+
+hello();
